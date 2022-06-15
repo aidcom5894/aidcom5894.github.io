@@ -1,2 +1,6 @@
 useful_links.txt
 https://finestdevs.com/demos/shade-preview/index-10.html
+
+Module 1 Link:
+https://colorlib.com/wp/template/login-form-v3/
+

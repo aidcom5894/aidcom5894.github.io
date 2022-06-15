@@ -74,7 +74,7 @@
                     <ul class="col-lg-8 col-12 row-lg list-unstyled py-lg-7">
                       <li class="col-lg-3">
                         <div class="single-dropdown-block">
-                          <a href="#" class="mega-drop-menu-item sub-menu--item">TicTacToe Game</a>
+                          <a href="modules/ticTacToe/index.html" class="mega-drop-menu-item sub-menu--item">TicTacToe Game</a>
                           <a href="index-2.html" class="mega-drop-menu-item sub-menu--item">Name Suggestor</a>
                           <a href="index-3.html" class="mega-drop-menu-item sub-menu--item">Zip & PDF Creator</a>
                           <a href="index-4.html" class="mega-drop-menu-item sub-menu--item">Data Analytics</a>
@@ -103,7 +103,7 @@
                         <div class="single-dropdown-block">
                           <a href="index-16.html" class="mega-drop-menu-item sub-menu--item">Multiplication Table</a>
                           <a href="index-17.html" class="mega-drop-menu-item sub-menu--item">E-Card Builder</a>
-                          <a href="index-18.html" class="mega-drop-menu-item sub-menu--item">Web Applications</a>
+                          <a href="index-18.html" class="mega-drop-menu-item sub-menu--item">JS Password Reset</a>
                           <a href="index-19.html" class="mega-drop-menu-item sub-menu--item">eBook</a>
                           <a href="index-20.html" class="mega-drop-menu-item sub-menu--item">>> View More</a>
                         </div>
@@ -151,7 +151,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a href="blog-regular.html" class="nav-link-item">Blog</a>
+                  <a href="#" class="nav-link-item">My Portfolio</a>
                 </li>
                 <li class="nav-item">
 
@@ -186,13 +186,21 @@
               <h1>Platform for Javascript Projects </h1>
               <p>A platform to help you learn code with pre-coded Javascript Programs. Dive and Learn with Functioning Codes.</p>
             </div>
+
             <form action="#" class="">
               <div class="subscription-form-1">
-                <input type="email" id="email" name="email" placeholder="Enter your email" class="form-control d-inline-block">
-                <input type="submit" value="Get Started" class="btn focus-reset">
+                <input type="email" id="userEmail" name="email" placeholder="Enter your email" class="form-control d-inline-block">
+                <button type="button" class="btn focus-reset" onclick="storeEmail()">Get Started</button>
               </div>
             </form>
+
+
+
+
             <p class="banner-sign-text">Already using AIDCOM? <a href="#">Sign In</a></p>
+
+            <label id="displayCookie"></label>
+
           </div>
           <div class="offset-xxl-1 col-xxl-6 col-xl-6 col-lg-5 col-md-8 order-lg-1 order-0" data-aos="fade-left" data-aos-delay="300" data-aos-duration="1000">
             <div class="">
@@ -618,6 +626,15 @@
       </div>
     </footer>
   </div>
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d455106.93996096775!2d84.0408398618128!3d26.98200186710045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39936e9697342f37%3A0x692f9c899bc5deb6!2sMp%20Tent%20House!5e0!3m2!1sen!2sin!4v1655276730656!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+  <!-- section for cookies script starts here -->
+    
+  <!-- section for cookies script ends here -->
+
+
+
   <!-- Vendor Scripts -->
   <script src="js/vendor.min.js"></script>
   <!-- Plugin's Scripts -->
@@ -633,6 +650,7 @@
   <script src="plugins/menu/menu.js"></script>
   <!-- Activation Script -->
   <script src="js/custom.js"></script>
+
 </body>
 
 </html>
